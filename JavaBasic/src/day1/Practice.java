@@ -11,7 +11,7 @@ public class Practice {
 int t = sc.nextInt();		
 int a =0 ;
 int b =0 ;
-
+//  aa
 
 for (int i = 0 ; i < t; i++) {
 	a = sc.nextInt();
