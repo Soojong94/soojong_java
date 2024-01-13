@@ -1,14 +1,25 @@
 package day1;
 
+import java.util.Scanner;
+
 public class Practice {
 
 	public static void main(String[] args) {
 
+		Scanner sc = new Scanner(System.in);
 		
-		int a = 0;
-		System.out.println(a);
-		int b =1;
-		System.out.println(b);
+int t = sc.nextInt();		
+int a =0 ;
+int b =0 ;
+
+
+for (int i = 0 ; i < t; i++) {
+	a = sc.nextInt();
+	b = sc.nextInt();	
+	System.out.print(a+b);
+}
+
+	
 	}
 
 }
