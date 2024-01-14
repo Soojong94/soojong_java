@@ -7,7 +7,6 @@ public class Practice1 {
 	public static void main(String[] args) {
 
 		
-////	=============================================
 		Scanner sc = new Scanner(System.in);
 		System.out.print("현재 몸무게 : ");
 		int t = sc.nextInt();
