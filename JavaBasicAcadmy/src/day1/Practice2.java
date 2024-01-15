@@ -596,6 +596,7 @@ public class Practice2 {
 //	return result;
 //
 //}
+		
 
 //if (a >= 10 && b >= 10) {
 //	if( a==b){
