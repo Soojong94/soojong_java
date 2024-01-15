@@ -33,7 +33,7 @@ public class Ex07비정방형배열2 {
 				System.out.println("프로그램을 종료합니다.");
 				break;
 			} else {
-				System.out.println("숫자 입력해라 헛짓거리 하지 말고");
+				System.out.println("잘못된 입력입니다");
 
 			}
 
