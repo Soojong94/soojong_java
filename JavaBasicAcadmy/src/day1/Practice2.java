@@ -562,6 +562,48 @@ public class Practice2 {
 //				System.out.println("잘못된 입력 값입니다. ");
 //			}System.out.println("아래에 다시 입력해주세요");
 //		}
-//		
+		
+//		 * **************************//	 * **************************
+		
+//		10과의 거리를 구하려면 -10을 해서 절대값을 씌우면 된다는 걸 생각 못함
+//
+//		if (a >= 10 && b >= 10) {
+//		if (a == b) {
+//			result = 0;
+//		} else {result = a > b? b : a; 
+//		}
+//
+//	} else if (a >= 10 && b < 10) {
+//		if (c > (d) * (-1)) {
+//			result = b;
+//		} else {
+//			result = a;
+//		}
+//	} else if (a < 10 && b < 10) {
+//		if ((c) * (-1) > (d) * (-1)) {
+//			result = b;
+//		} else {
+//			result = a;
+//		}
+//
+//	} else if (a < 10 && b >= 10) {
+//		if ((c) * (-1) > d) {
+//			result = b;
+//		} else {
+//			result = a;
+//		}
+//	}
+//	return result;
+//
+//}
+
+//if (a >= 10 && b >= 10) {
+//	if( a==b){
+//result = 0;
+//}else if((a>b) ? return = a : return= b){
+//
+//}
+//
+		
 	}
 }

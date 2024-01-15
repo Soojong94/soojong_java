@@ -17,10 +17,9 @@ public class Ex09PowerN {
 	}
 	public static int powerN(int base , int n) {
 	// base 를 n 번 곱함
-		int result = base;
-		for (int i = base ; n >= 0 ; n--) {
-			result = i*i;
-			
+		int result = 1;
+		for (int i = 1 ; n > 0 ; n--) {
+			result = base * result; 
 		} return result;
 		
 	}

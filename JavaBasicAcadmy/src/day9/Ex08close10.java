@@ -31,40 +31,4 @@ public class Ex08close10 {
 	}
 }
 
-//		if (a >= 10 && b >= 10) {
-//			if (a == b) {
-//				result = 0;
-//			} else {result = a > b? b : a; 
-//			}
-//
-//		} else if (a >= 10 && b < 10) {
-//			if (c > (d) * (-1)) {
-//				result = b;
-//			} else {
-//				result = a;
-//			}
-//		} else if (a < 10 && b < 10) {
-//			if ((c) * (-1) > (d) * (-1)) {
-//				result = b;
-//			} else {
-//				result = a;
-//			}
-//
-//		} else if (a < 10 && b >= 10) {
-//			if ((c) * (-1) > d) {
-//				result = b;
-//			} else {
-//				result = a;
-//			}
-//		}
-//		return result;
-//
-//	}
 
-//	if (a >= 10 && b >= 10) {
-//		if( a==b){
-//	result = 0;
-//	}else if((a>b) ? return = a : return= b){
-//	
-//    }
-//	
