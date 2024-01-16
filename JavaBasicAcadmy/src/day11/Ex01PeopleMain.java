@@ -12,8 +12,7 @@ public class Ex01PeopleMain {
 		
 		Scanner sc =new Scanner(System.in);
 		Ex01People p1 = new Ex01People();
-		
-		
+
 	}
 
 }
