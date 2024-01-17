@@ -9,7 +9,7 @@ public class Practice16 {
 		Scanner sc = new Scanner(System.in);
 
 		int sum = 0;
-		System.out.print("정수 입력 : ");
+		System.out.print("8자리 정수 입력 : ");
 		int n = sc.nextInt();
 
 		for (int i = 10000000; i >= 1; i /= 10) {
