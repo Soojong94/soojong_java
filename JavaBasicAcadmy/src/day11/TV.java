@@ -23,4 +23,7 @@ public class TV {
 	}public void chnnelDown() {
 		channel--;
 	}
+	public void showChannel() {
+		System.out.print(channel);
+	}
 }
