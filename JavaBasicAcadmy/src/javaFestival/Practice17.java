@@ -16,7 +16,7 @@ public class Practice17 {
 			if (num % 3 == 0) {
 				num1.add(num);
 			}
-			;
+			
 		}
 		System.out.print("3의 배수 : ");
 		for (int i : num1) {

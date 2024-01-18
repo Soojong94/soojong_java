@@ -7,9 +7,9 @@ public class ContactMain {
 	public static void main(String[] args) {
 
 		Contact contact1 = new Contact();
-//		contact1.name = "Mage";
-//		contact1.age = 248;
-//		contact1.tel = "010-7979-4452";
+		contact1.name = "Mage";
+		contact1.age = 248;
+		contact1.tel = "010-7979-4452";
 
 		Contact contact2 = new Contact("Dwarf", 82, "070-5252-3232");
 		Contact contact3 = new Contact("Doctor", 160, "070-5267-3232");

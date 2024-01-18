@@ -2,9 +2,9 @@ package day12;
 
 public class Contact {
 
-	private String name;
-	private int age;
-	private String tel;
+	 String name;
+	 int age;
+	 String tel;
 	
 	//getter 메소드
 
