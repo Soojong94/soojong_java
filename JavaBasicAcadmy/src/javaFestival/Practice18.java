@@ -10,18 +10,25 @@ public class Practice18 {
 
 		Random ran = new Random();
 		int[] arr = new int[6];
+		int num1 = 0;
 
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print("행운의 숫자 : ");
-			int num = ran.nextInt(10) + 1;
-			for (int j = 0; j < arr.length; j++) {
-				if (arr[i] == num) {
-					num = ran.nextInt(10) + 1;
+			num1 = ran.nextInt(6) + 1;
+			// 앞에 뽑은 숫자와 비교해서 중복이 없으면 넣기
+
+			for (int j = i - 1; j >= 0; j--) {
+				if (num1 == arr[j]) {
+					num1 = ran.nextInt(6) + 1;
+					j = i;
 				}
 			}
 
+			arr[i] = num1;
+
 		}
 
+		for (int i : arr) {
+			System.out.println("행운의 숫자 : " + i);
+		}
 	}
-
 }
