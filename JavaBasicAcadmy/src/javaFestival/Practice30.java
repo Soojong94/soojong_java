@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Practice30 {
 
 	public static void main(String[] args) {
-
+//
 //		알파벳의 빈도를 대소문자 구분없이 구하는 프로그램
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine().toLowerCase();
